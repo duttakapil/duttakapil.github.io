@@ -63,7 +63,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #DE6B48;
 }
 
 hr.star-primary {
@@ -82,7 +82,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #DE6B48;
 }
 
 header .container {
@@ -93,6 +93,15 @@ header .container {
 header img {
     display: block;
     margin: 0 auto 20px;
+}
+
+.img-responsive {
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  border: 7px solid #fff;
+  width: 250;
+  height: 250;
 }
 
 header .intro-text .name {
@@ -181,10 +190,10 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #DE6B48;
 }
 .code-color {
-    background-color : black;  
+    background-color : black;
 }
 
 
@@ -199,7 +208,7 @@ section.success {
 }
 
 #portfolio .portfolio-item {
-    right: 0;
+    left: 200px;
     margin: 0 0 15px;
 }
 
