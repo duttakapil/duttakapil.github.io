@@ -211,6 +211,12 @@ section.success {
     left: 200px;
     margin: 0 0 15px;
 }
+@media (max-width: 750px){
+  #portfolio .portfolio-item {
+      left: 15px;
+      margin: 0 0 15px;
+  }
+}
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;
